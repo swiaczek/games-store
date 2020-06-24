@@ -1,0 +1,20 @@
+.form-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.form-control input,
+.form-control textarea {
+  font-size: 20px;
+  padding: 5px 10px;
+  width: 100%;
+  margin-bottom: 0.25rem;
+  border: 1px solid silver;
+}
+.form-control label:focus,
+.form-control input:focus,
+.form-control textarea:focus {
+  border: 2px solid #494d5f;
+}
