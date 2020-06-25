@@ -8,13 +8,14 @@
 .form-control input,
 .form-control textarea {
   font-size: 20px;
+  font-weight: 300;
   padding: 5px 10px;
   width: 100%;
   margin-bottom: 0.25rem;
-  border: 1px solid silver;
+  border: 1px solid #e3d477;
 }
 .form-control label:focus,
 .form-control input:focus,
 .form-control textarea:focus {
-  border: 2px solid #494d5f;
+  border: 2px solid seagreen;
 }

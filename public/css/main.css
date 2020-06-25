@@ -13,7 +13,7 @@ body {
 
 main {
   padding: 1rem;
-  margin: 0 16rem;
+  margin-left: 15rem;
   display: flex;
 }
 
@@ -179,6 +179,10 @@ form {
 .card {
   box-shadow: 0 2px 8px #494d5f6b;
   padding: 0.25rem 0;
+}
+
+.card:hover {
+  background-color: #2e8b5610;
 }
 
 .card__header,

@@ -1,0 +1,21 @@
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+  padding: 0;
+  box-shadow: 0 2px 8px #494d5f6b;
+}
+
+.cart-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #494d5f6b;
+  width: 700px;
+  transition: 0.3;
+  padding: 0 1rem;
+}
+
+.cart-list li:hover {
+  background-color: #2e8b5610;
+}
